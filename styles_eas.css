@@ -1,0 +1,47 @@
+:root {
+    --grid-cols: 1;
+    --grid-rows: 1;
+  }
+  
+  #grid_container {
+    display: grid;
+    width:600px;
+    height:600px;
+    grid-template-rows: repeat(var(--grid-rows), 1fr);
+    grid-template-columns: repeat(var(--grid-cols), 1fr);
+    flex-wrap:wrap;
+    position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+    margin: auto;
+    border:5px solid black;
+  }
+  
+  .grid-item {
+    padding: 1em;
+    border: 1px solid #ddd;
+    text-align: center;
+    background-color: white;
+  }
+
+  html { 
+    background: url(https://iasbh.tmgrup.com.tr/08b617/752/395/0/71/724/451?u=https://isbh.tmgrup.com.tr/sbh/2018/08/10/amsterdama-seyahat-etmek-icin-7-sebep-1533900427634.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  h1{
+      margin:10px;
+      font-family:'Brush Script MT';
+  }
+  .buttons{
+      margin:1em;
+  }
+  body{
+      margin:0;
+      padding:0;
+      text-align:center;
+  }
